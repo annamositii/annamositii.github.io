@@ -11,12 +11,22 @@ html, body {
     cursor: grab;
 }
 
-.tree-link {
+.tree-heading {
+    font-size: 200px;
+    fill: black;
+    cursor: pointer;
+}
+
+.tree-heading:hover {
+    fill: blue;
+}
+
+.tree-node {
     font-size: 100px;
     fill: black;
     cursor: pointer;
 }
 
-.tree-link:hover {
+.tree-node:hover {
     fill: blue;
 }
