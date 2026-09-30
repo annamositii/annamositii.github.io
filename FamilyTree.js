@@ -47,3 +47,17 @@ canvas.addEventListener("mouseleave", function() {
     isDragging = false;
     canvas.style.cursor = "grab";
 });
+
+canvas.addEventListener("wheel", function(event) {
+    event.preventDefault();
+
+    const zoomFactor = event.deltaY > 0 ? 1.1 : 0.9;
+
+    viewBox.width *= zoomFactor;
+    viewBox.height *= zoomFactor;
+
+    canvas.setAttribute(
+        "viewBox",
+        `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`
+    );
+});
