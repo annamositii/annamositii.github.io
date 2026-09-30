@@ -10,3 +10,13 @@ html, body {
     height: 100vh;
     cursor: grab;
 }
+
+.tree-link {
+    font-size: 100px;
+    fill: black;
+    cursor: pointer;
+}
+
+.tree-link:hover {
+    fill: blue;
+}
