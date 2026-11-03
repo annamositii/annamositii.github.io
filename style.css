@@ -1,6 +1,6 @@
 :root {
-  --bg: #F2FDFF;
-  --text: #101935;
+  --bg: #f9feff;
+  --text: #0b1942;
   --muted: #585a64;
   --accent: #2563eb;
   --border: #e5e5e5;
@@ -22,14 +22,14 @@ body {
 
 header {
   font-size: 1.5rem; 
-  padding: 2rem 0;
+  padding: 1rem 0;
   gap: 3rem;
 }
 
 
 .container {
   max-width: var(--max-width);
-  margin: 2rem;
+  margin: 0 2rem;
   padding: 0 1.5rem;
 }
 
