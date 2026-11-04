@@ -24,7 +24,7 @@ body {
   font-family: "VT323", monospace;
   color: var(--text);
   background: var(--bg);
-  line-height: 1.6;
+  line-height: 1;
 }
 
 .title-card {
@@ -144,7 +144,7 @@ nav a:hover .letter,
 }
 
 .page-header a {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--text);
   text-decoration: none;
   position: relative;
