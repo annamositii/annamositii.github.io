@@ -45,10 +45,24 @@ body {
   font-size: inherit;
   color: var(--text);
   text-decoration: none;
+  position: relative;
+  display: inline-block;
 }
 
-.title-card h1 a:hover {
-  text-decoration: underline;
+.title-card h1 a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--text);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.title-card h1 a:hover::after {
+  width: 100%;
 }
 
 .container {
