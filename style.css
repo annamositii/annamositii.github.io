@@ -1,9 +1,9 @@
 :root {
-  --bg: #f9feff;
-  --text: #0b1942;
-  --muted: #585a64;
-  --accent: #2563eb;
-  --border: #e5e5e5;
+  --bg: #151738;
+  --text: #FFFFFF;
+  --muted: #C7C7C7;
+  --accent: #FFD43D;
+  --border: #FFFFFF;
   --card-bg: #f7f7f8;
   --max-width: 800px;
 }
@@ -11,6 +11,13 @@
 * {
   box-sizing: border-box;
 }
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body {
   margin: 0;
@@ -20,6 +27,24 @@ body {
   line-height: 1.6;
 }
 
+.title-card {
+  font-size: 2rem;
+  font-family: "VT323", monospace;
+  color: var(--text);
+  text-align: center;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
 header {
   font-size: 1.5rem; 
   padding: 1rem 0;
@@ -48,6 +73,7 @@ header h1 {
 
 .tagline {
   color: var(--muted);
+  font-size: .9rem; 
   margin: 0;
 }
 
@@ -113,4 +139,4 @@ footer {
   padding: 1.5rem 0;
   color: var(--muted);
   font-size: 0.9rem;
-}
+} */
