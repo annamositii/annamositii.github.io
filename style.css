@@ -125,6 +125,33 @@ nav a:hover .letter,
   }
 }
 
+.page-header {
+  font-family: "VT323", monospace;
+  color: var(--text);
+  text-align: left;
+  margin: .5rem .5rem;
+  padding: 0 .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.page-header a {
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  color: var(--text);
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
 /* 
 header {
   font-size: 1.5rem; 
