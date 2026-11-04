@@ -40,6 +40,17 @@ body {
   margin: 0;
 }
 
+.title-card h1 a {
+  font-family: "VT323", monospace;
+  font-size: inherit;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.title-card h1 a:hover {
+  text-decoration: underline;
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
