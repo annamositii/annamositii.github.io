@@ -144,8 +144,8 @@ nav a:hover .letter,
 }
 
 .page-header a {
-  font-family: "VT323", monospace;
-  font-size: 1.25rem;
+
+  font-size: 1.15rem;
   color: var(--text);
   text-decoration: none;
   position: relative;
