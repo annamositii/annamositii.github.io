@@ -45,11 +45,20 @@ body {
 }
 
 nav {
-  font-family: "VT323", monospace;
   font-size: 1.25rem;
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.25 rem;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none; 
+
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* 
