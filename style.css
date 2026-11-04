@@ -28,11 +28,16 @@ body {
 }
 
 .title-card {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "VT323", monospace;
   color: var(--text);
   text-align: center;
   flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title-card h1 {
+  margin: 0;
 }
 
 .container {
@@ -46,7 +51,7 @@ body {
 }
 
 nav {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1.25rem;
