@@ -77,7 +77,7 @@ body {
 
 .body-container {
   max-width: var(--max-width);
-  margin: 1rem .7rem; 
+  margin: .7rem 1rem; 
   padding: 0 .5rem;
   display: flex;
   justify-content: flex-start;
