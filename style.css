@@ -3,8 +3,8 @@
   --text: #FFFFFF;
   --muted: #C7C7C7;
   --accent: #FFD43D;
-  --border: #FFFFFF;
-  --card-bg: #f7f7f8;
+  --border: #374967;
+  --card-bg: #232b4b;
   --max-width: 800px;
 }
 
@@ -155,7 +155,7 @@ nav a:hover .letter,
   margin: 0;
   margin-top: .5rem;
   margin-left: .5rem;
-  font-size: 6rem;
+  font-size: 5.5rem;
 }
 
 .page-header a {
@@ -164,6 +164,29 @@ nav a:hover .letter,
   text-decoration: none;
   position: relative;
   display: inline-block;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-family: "VT323", monospace;
+  font-size: 1rem; 
+}
+
+.card a {
+  text-decoration: none;
 }
 
 /* 
