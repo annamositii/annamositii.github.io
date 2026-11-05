@@ -75,6 +75,13 @@ body {
   align-items: center;
 }
 
+.comtainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "VT323", monospace;
+  color: var(--text);
+}
+
 nav {
   font-size: 1.5rem;
   display: flex;
