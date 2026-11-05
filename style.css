@@ -124,7 +124,7 @@ nav a:hover::after {
 }
 
 nav a:hover .letter,
-.title-card h1 a:hover .letter 
+.title-card h1 a:hover .letter, 
 .project-card a:hover .letter{
   animation: bounce 0.4s ease;
 }
