@@ -219,7 +219,7 @@ nav a:hover .letter,
 }
 
 .home-icon img {
-  width: 40x; 
+  width: 40px; 
   height: auto;
   image-rendering: pixelated;
   object-fit: contain;
