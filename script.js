@@ -5,7 +5,7 @@ if (yearElement) {
 }
 
 const textElements = document.querySelectorAll(
-  ".title-card h1 a, nav a"
+  ".title-card h1 a, nav a, .project-card a"
 );
 
 textElements.forEach(element => {
