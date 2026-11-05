@@ -75,11 +75,15 @@ body {
   align-items: center;
 }
 
-.comtainer h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+.body-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
   font-family: "VT323", monospace;
-  color: var(--text);
 }
 
 nav {
