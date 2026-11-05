@@ -218,6 +218,13 @@ nav a:hover .letter,
   gap: .5rem; 
 }
 
+.home-icon img {
+  width: 40x; 
+  height: auto;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
 /* 
 header {
   font-size: 1.5rem; 
