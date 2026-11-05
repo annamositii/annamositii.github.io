@@ -9,9 +9,12 @@ const textElements = document.querySelectorAll(
 );
 
 textElements.forEach(element => {
+   if (element.querySelector("img")) return;
+  
   const text = element.textContent;
   element.textContent = "";
 
+  
   [...text].forEach((letter, index) => {
     if (letter === " ") {
       element.appendChild(document.createTextNode(" "));
