@@ -173,21 +173,42 @@ nav a:hover .letter,
   gap: 1rem;
 }
 
-.card {
+.project-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.25rem;
 }
 
-.card h3 {
+.project-card h3 {
   margin-top: 0;
   font-family: "VT323", monospace;
-  font-size: 1rem; 
+  font-size: 1.5rem; 
 }
 
-.card a {
+.project-card a {
+  font-family: "VT323", monospace;
+  font-size: inherit;
+  color: var(--text);
   text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.project-card a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--text);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.card a:hover::after {
+  width: 100%;
 }
 
 /* 
