@@ -78,6 +78,7 @@ body {
 .body-container {
   max-width: var(--max-width);
   margin: .2rem 1.5rem; 
+  margin-left: .5rem; 
   padding: 0 .5rem;
   display: flex;
   justify-content: flex-start;
@@ -152,6 +153,7 @@ nav a:hover .letter,
 .page-header h1 {
   margin: 0;
   margin-top: .5rem;
+  margin-left: .5rem;
   font-size: 3.6rem;
 }
 
