@@ -22,6 +22,8 @@ html, body {
     fill: black;
     cursor: pointer;
     display: flex;
+    text-anchor: middle;
+    dominant-baseline: middle;
 }
 
 .tree-heading h1{
