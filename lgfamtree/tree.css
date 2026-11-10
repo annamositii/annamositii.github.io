@@ -1,3 +1,7 @@
+:root {
+  --font-main: 'Courier New', monospace;
+}
+
 html, body {
     margin: 0;
     width: 100%;
@@ -11,10 +15,23 @@ html, body {
     cursor: grab;
 }
 
+
 .tree-heading {
     font-size: 33rem;
+    font-family: var(--font-main);
     fill: black;
     cursor: pointer;
+    display: flex;
+}
+
+.tree-heading h1{
+    font-size: 33rem;
+    font-family: var(--font-main);
+    fill: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem; 
 }
 
 .tree-heading:hover {
@@ -23,6 +40,7 @@ html, body {
 
 .tree-node {
     font-size: 19rem;
+    font-family: var(--font-main);
     fill: black;
     cursor: pointer;
 }
@@ -30,6 +48,18 @@ html, body {
 .tree-node:hover {
     fill: blue;
 }
+
+.language-node {
+    font-size: 19rem;
+    font-family: var(--font-main);
+    fill: black;
+    cursor: pointer;
+}
+
+.language-node:hover {
+    fill: blue;
+}
+
 
 #coordinates {
   position: fixed;
