@@ -89,5 +89,8 @@ canvas.addEventListener("wheel", function(event) {
 const coordinates = document.getElementById("coordinates");
 
 document.addEventListener("mousemove", (event) => {
-  coordinates.textContent = `X: ${event.clientX} | Y: ${event.clientY}`;
+  const x = event.clientX - window.innerWidth / 2;
+  const y = event.clientY - window.innerHeight / 2;
+
+  coordinates.textContent = `X: ${Math.round(x)} | Y: ${Math.round(y)}`;
 });
