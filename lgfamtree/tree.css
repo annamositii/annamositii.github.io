@@ -12,7 +12,7 @@ html, body {
 }
 
 .tree-heading {
-    font-size: 8rem;
+    font-size: 20rem;
     fill: black;
     cursor: pointer;
 }
@@ -22,7 +22,7 @@ html, body {
 }
 
 .tree-node {
-    font-size: 100px;
+    font-size: 6rem;
     fill: black;
     cursor: pointer;
 }
