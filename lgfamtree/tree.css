@@ -17,23 +17,17 @@ html, body {
 
 
 .tree-heading {
-    font-size: 33rem;
-    font-family: var(--font-main);
-    fill: black;
-    cursor: pointer;
     display: flex;
-    text-anchor: middle;
-    dominant-baseline: middle;
+    justify-content: center;
+    padding-top: 3rem;
 }
 
 .tree-heading h1{
     font-size: 33rem;
     font-family: var(--font-main);
-    fill: black;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding-top: 3rem; 
+    color: black;
+    font-weight: normal;
+    margin: 0;
 }
 
 .tree-heading:hover {
@@ -52,9 +46,13 @@ html, body {
 }
 
 .language-node {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 19rem;
     font-family: var(--font-main);
-    fill: black;
+    color: black;
     cursor: pointer;
 }
 
