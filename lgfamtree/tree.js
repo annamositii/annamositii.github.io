@@ -86,11 +86,19 @@ canvas.addEventListener("wheel", function(event) {
 });
 
 
+const svg = document.querySelector("svg");
 const coordinates = document.getElementById("coordinates");
 
 document.addEventListener("mousemove", (event) => {
-  const x = event.clientX - window.innerWidth / 2;
-  const y = event.clientY - window.innerHeight / 2;
+  const point = svg.createSVGPoint();
 
-  coordinates.textContent = `X: ${Math.round(x)} | Y: ${Math.round(y)}`;
+  point.x = event.clientX;
+  point.y = event.clientY;
+
+  const svgPoint = point.matrixTransform(
+    svg.getScreenCTM().inverse()
+  );
+
+  coordinates.textContent =
+    `X: ${Math.round(svgPoint.x)} | Y: ${Math.round(svgPoint.y)}`;
 });
