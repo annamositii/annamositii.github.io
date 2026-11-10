@@ -84,3 +84,10 @@ canvas.addEventListener("wheel", function(event) {
         `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`
     );
 });
+
+
+const coordinates = document.getElementById("coordinates");
+
+document.addEventListener("mousemove", (event) => {
+  coordinates.textContent = `X: ${event.clientX} | Y: ${event.clientY}`;
+});
