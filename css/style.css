@@ -179,7 +179,7 @@ nav a:hover .letter,
 }
 
 .project-card {
-  background: var(--card-bg);
+  background: rgba(35, 43, 75, .5);
   border: 1px solid var(--card-bg);
   border-radius: 8px;
   padding: 1.25rem;
