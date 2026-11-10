@@ -178,10 +178,10 @@ nav a:hover .letter,
 .project-card {
   background: var(--card-bg);
   border: 1px solid var(--card-bg);
-  border-radius: 0px;
+  border-radius: 8px;
   padding: 1.25rem;
 }
-
+/* 
 .project-card::after {
   content: "";
   position: absolute;
@@ -193,7 +193,7 @@ nav a:hover .letter,
 
 .project-card:hover::after {
   opacity: 1;
-}
+} */
 
 .project-card h3 {
   margin-top: 0;
@@ -237,100 +237,3 @@ nav a:hover .letter,
   width: 40px;
   height: auto;
 }
-
-/* 
-header {
-  font-size: 1.5rem; 
-  padding: 1rem 0;
-  gap: 3rem;
-}
-
-
-.container {
-  max-width: var(--max-width);
-  margin: 0 2rem;
-  padding: 0 1.5rem;
-}
-
-
-.header-content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 1.25rem;
-  white-space: nowrap;
-}
-
-.tagline {
-  color: var(--muted);
-  font-size: .9rem; 
-  margin: 0;
-}
-
-nav {
-  display: flex;
-  gap: 1.25rem;
-}
-
-nav a {
-   font-size: 1.25rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 2.5rem 0;
-}
-
-section {
-  margin-bottom: 3rem;
-}
-
-h2 {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.5rem;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-}
-
-.card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-}
-
-.card h3 {
-  margin-top: 0;
-}
-
-.card a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  border-top: 1px solid var(--border);
-  padding: 1.5rem 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-} */
