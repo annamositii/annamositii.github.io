@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   font-family: "VT323", monospace;
   color: var(--text);
-  background: linear-gradient(135deg, var(--bg) 0%, #2E456E 50%, var(--bg) 100%);
+  background: linear-gradient(135deg, var(--bg) 0%, #293C66 50%, var(--bg) 100%);
   background-attachment: fixed;
   line-height: 1;
 
