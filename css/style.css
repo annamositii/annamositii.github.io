@@ -23,7 +23,7 @@ body {
   margin: 0;
   font-family: "VT323", monospace;
   color: var(--text);
-  background: var(--bg);
+  background: linear-gradient(135deg, var(--bg) 0%, #2E456E 50%, var(--bg) 100%);
   line-height: 1;
 }
 
