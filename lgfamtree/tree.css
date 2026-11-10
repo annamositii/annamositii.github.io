@@ -28,6 +28,8 @@ html, body {
     color: black;
     font-weight: normal;
     margin: 0;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 .tree-heading:hover {
