@@ -11,6 +11,11 @@ let viewBox = {
     height: 10000
 };
 
+canvas.setAttribute(
+    "viewBox",
+    `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`
+);
+
 canvas.addEventListener("mousedown", function(event) {
     isDragging = true;
 
