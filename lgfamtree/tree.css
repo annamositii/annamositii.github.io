@@ -21,6 +21,8 @@ html, body {
     justify-content: center;
     padding-top: 3rem;
     font-size: 33rem;
+    color: black;
+    font-family: var(--font-main);
 }
 
 #tree-container {
@@ -32,16 +34,6 @@ html, body {
 #canvas {
     width: 6000px;
     height: 8000px;
-}
-
-.tree-heading h1{
-    font-size: 33rem;
-    font-family: var(--font-main);
-    color: black;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
-    padding-top: 3rem;
 }
 
 .tree-title {
