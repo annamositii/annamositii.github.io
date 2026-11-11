@@ -60,7 +60,8 @@ html, body {
 
 .branch {
     stroke: black;
-    stroke-width: 2;
+    stroke-width: 8;
+    fill: none;
 }
 
 #canvas {
