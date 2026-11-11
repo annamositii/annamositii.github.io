@@ -1,5 +1,6 @@
 :root {
   --font-main: 'Times New Roman', serif;
+  --bg-color: #f0f0f0;
 
 }
 
@@ -35,6 +36,7 @@ html, body {
     font-family: var(--font-main);
     text-anchor: middle;
     dominant-baseline: middle;
+    fill: var(--bg-color);
 }
 
 .family-node a {
@@ -48,6 +50,7 @@ html, body {
     font-family: var(--font-main);
     text-anchor: middle;
     dominant-baseline: middle;
+    fill: var(--bg-color);
 }
 
 .language-node a {
@@ -55,7 +58,10 @@ html, body {
     color: inherit;
 }
 
-
+.branch {
+    stroke: black;
+    stroke-width: 2;
+}
 
 #canvas {
     width: 100vw;
