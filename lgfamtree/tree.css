@@ -17,12 +17,16 @@ html, body {
 }
 
 .tree-heading {
-    font-size: 33rem; 
+    font-size: 29rem; 
     font-family: --var(--font-main);
     display: flex;
     align-items: center;
     justify-content: center;
     text-anchor: middle; 
+}
+
+.tree-heading a{
+
 }
 
 
