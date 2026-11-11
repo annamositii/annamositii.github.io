@@ -32,6 +32,16 @@ html, body {
     padding-top: 3rem;
 }
 
+.tree-heading h2{
+    font-size: 33rem;
+    font-family: var(--font-main);
+    color: black;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    padding-top: 3rem;
+}
+
 .tree-heading:hover {
     fill: blue;
 }
