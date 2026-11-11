@@ -18,7 +18,7 @@ html, body {
 }
 
 .tree-heading {
-     font-size: 29rem;
+     font-size: 20rem;
     font-family: var(--font-main);
     text-anchor: middle;
     dominant-baseline: middle;
