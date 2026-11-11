@@ -25,12 +25,16 @@ html, body {
 }
 
 .tree-heading a{
-
+    text-decoration: none;
+    color: inherit;
 }
 
 
 .family-node {
-
+    font-size: 18rem;
+    font-family: var(--font-main);
+    text-anchor: middle;
+    dominant-baseline: middle;
 }
 
 .family-node a {
@@ -40,7 +44,10 @@ html, body {
 
 
 .language-node {
-    
+    font-size: 16rem;
+    font-family: var(--font-main);
+    text-anchor: middle;
+    dominant-baseline: middle;
 }
 
 .language-node a {
