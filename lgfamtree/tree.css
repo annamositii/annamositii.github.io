@@ -1,6 +1,7 @@
 :root {
   --font-main: 'Times New Roman', serif;
   --bg-color: #f0f0f0;
+  --border-color: #ccc;
 
 }
 
@@ -82,4 +83,17 @@ html, body {
   font-size: 14px;
   z-index: 1000;
   pointer-events: none;
+}
+
+#popover {
+  position: fixed;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: 5px;
+  display: none; /* Initially hidden */
+  width: 250px;
+  height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
 }

@@ -107,3 +107,46 @@ document.addEventListener("mousemove", (event) => {
   coordinates.textContent =
     `X: ${Math.round(svgPoint.x)} | Y: ${Math.round(svgPoint.y)}`;
 });
+
+const triggers = document.querySelectorAll(".popover-trigger");
+const popover = document.getElementById("popover");
+
+triggers.forEach(trigger => {
+
+    trigger.addEventListener("mouseenter", () => {
+
+        const position = trigger.getBoundingClientRect();
+        const title = trigger.dataset.title;
+
+        popover.querySelector("h3").textContent = title;
+
+        popover.style.left = position.right + 10 + "px";
+        popover.style.top = position.top + "px";
+
+        popover.style.display = "block";
+
+    });
+
+const popupContent = {
+
+    uyghur: `
+        <h3>Uyghur</h3>
+        <p>A Turkic language spoken primarily in the Xinjiang Uyghur Autonomous Region.</p>
+        <a href="uyghur.html">Learn more</a>
+    `,
+
+    uzbek: `
+        <h3>Uzbek</h3>
+        <p>A Turkic language spoken primarily in Uzbekistan.</p>
+        <a href="uzbek.html">Learn more</a>
+    `,
+
+    kazakh: `
+        <h3>Kazakh</h3>
+        <p>A Turkic language spoken primarily in Kazakhstan.</p>
+        <a href="kazakh.html">Learn more</a>
+    `
+
+};
+
+});
