@@ -129,21 +129,21 @@ triggers.forEach(trigger => {
 
 const popupContent = {
 
-    uyghur: `
-        <h3>Uyghur</h3>
-        <p>A Turkic language spoken primarily in the Xinjiang Uyghur Autonomous Region.</p>
-        <a href="uyghur.html">Learn more</a>
+    "Proto-Turkic": `
+        <h3>Proto-Turkic</h3>
+        <p>The ancestral language of all Turkic languages.</p>
+        <a href="prototurkic.html">Learn more</a>
     `,
 
-    uzbek: `
-        <h3>Uzbek</h3>
-        <p>A Turkic language spoken primarily in Uzbekistan.</p>
-        <a href="uzbek.html">Learn more</a>
+    "Common Turkic": `
+        <h3>Common Turkic</h3>
+        <p>The ancestral language of all Turkic languages.</p>
+        <a href="commonturkic.html">Learn more</a>
     `,
 
-    kazakh: `
-        <h3>Kazakh</h3>
-        <p>A Turkic language spoken primarily in Kazakhstan.</p>
+    "Oghuric": `
+        <h3>Oghuric</h3>
+        <p>A extinct Turkic language.</p>
         <a href="kazakh.html">Learn more</a>
     `
 
